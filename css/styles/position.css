@@ -1,0 +1,31 @@
+.blue{
+width: 100px;
+height: 100px;
+background-color:blue;
+position: static;       /*default*/
+}
+
+.red{
+width: 100px;
+height: 100px;
+background-color:red;
+position: relative;     /*relative to its normal position*/
+right: -120px;
+}
+.yellow{
+width: 100px;
+height: 100px;
+background-color:yellow;
+/* i he viewport, like fixed). */
+
+/* However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. */
+position: absolute;
+right: 40px;
+top: 2px;
+}
+.green{
+width: 100px;
+height: 100px;
+background-color:green;
+position: fixed;
+}

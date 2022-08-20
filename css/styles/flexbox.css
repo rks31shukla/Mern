@@ -1,0 +1,29 @@
+.flex-container{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content:space-around;
+} 
+.flex-item{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    
+}
+#box1{
+    background-color: aqua;
+    order: 2;
+}
+#box2{
+    background-color: red;
+    order: 1;
+}
+#box3{
+background-color:gray ;
+order: 4;
+}
+#box4{
+background-color: cyan;
+order: 3;
+}

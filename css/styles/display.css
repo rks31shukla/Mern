@@ -1,0 +1,17 @@
+h1 {
+background-color: red;
+
+}
+p {
+background-color: rgb(166, 225, 39);
+display: inline;
+}
+span {
+    background-color: pink;
+    
+}
+
+h3{
+    background-color: blueviolet;
+    display: none;
+}
