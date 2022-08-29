@@ -1,3 +1,9 @@
+'use strict'; //  imposes restrictions on js code
+// p=2;
+// console.log(p);//not defined - due to strict mode
+
+
+
 // // var h1Element = document.querySelector('h1');
 // // // console.log(h1Element);
 
